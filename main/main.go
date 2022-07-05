@@ -10,7 +10,7 @@ type User struct {
 	Name                 string
 	Age                  uint16
 	Money                int16
-	AvgGrades, happiness float64
+	AvgGrades, Happiness float64
 }
 
 func (u *User) getAllInfo() string {
